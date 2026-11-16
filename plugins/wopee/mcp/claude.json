@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wopee": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/bin/wopee-mcp.mjs"]
+    }
+  }
+}

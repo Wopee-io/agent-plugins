@@ -1,0 +1,33 @@
+{
+  "name": "wopee",
+  "version": "0.1.0",
+  "description": "Connect your coding agent to Wopee.io: generate and run tests of your web app in the cloud and read the verdicts, from the chat.",
+  "author": {
+    "name": "Wopee.io",
+    "url": "https://wopee.io"
+  },
+  "homepage": "https://docs.wopee.io/agent-setup/",
+  "repository": "https://github.com/Wopee-io/agent-plugins",
+  "license": "MIT",
+  "keywords": ["testing", "qa", "e2e", "playwright", "visual-testing", "mcp", "wopee"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp/codex.json",
+  "interface": {
+    "displayName": "Wopee.io",
+    "shortDescription": "Generate, run and read web app tests in the cloud from your editor",
+    "longDescription": "Wopee.io runs AI testing agents against your web app in the cloud. This plugin adds the Wopee.io MCP server and a setup skill: connect a repository to your Wopee.io project with one browser approval (no API key in the chat), then explore the app, generate user stories and test cases, run them on Wopee.io's runners and read the verdicts with evidence.",
+    "developerName": "Wopee.io",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://wopee.io",
+    "privacyPolicyURL": "https://wopee.io/privacy/",
+    "termsOfServiceURL": "https://wopee.io/terms-and-conditions/",
+    "defaultPrompt": [
+      "Set up Wopee.io testing for this repo",
+      "Run a Wopee analysis of my app",
+      "Which Wopee.io tests failed in the last run, and why?"
+    ],
+    "brandColor": "#7030a0",
+    "screenshots": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "wopee",
+  "interface": {
+    "displayName": "Wopee.io"
+  },
+  "plugins": [
+    {
+      "name": "wopee",
+      "source": {
+        "source": "local",
+        "path": "./plugins/wopee"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
