@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "wopee": {
+      "command": "npx",
+      "args": ["-y", "wopee-mcp@latest"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "wopee",
+  "displayName": "Wopee.io",
+  "version": "0.1.0",
+  "description": "Connect your coding agent to Wopee.io: generate and run tests of your web app in the cloud and read the verdicts, from the chat.",
+  "author": {
+    "name": "Wopee.io",
+    "url": "https://wopee.io"
+  },
+  "homepage": "https://docs.wopee.io/agent-setup/",
+  "repository": "https://github.com/Wopee-io/agent-plugins",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "keywords": ["testing", "qa", "e2e", "playwright", "visual-testing", "mcp", "wopee"],
+  "skills": "./skills/",
+  "mcpServers": "./mcp/claude.json"
+}
